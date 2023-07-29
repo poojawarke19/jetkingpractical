@@ -1,0 +1,20 @@
+How to create your own Cryptocurrency token on Binance Blockchain
+
+
+step 1:
+Created metamask account and add binance test network to the metamask.
+step 2:
+go to mint.trustswap.org, click on token creation.connect your metamask wallet 
+setp 3:
+select blockchain(bsc testnet)
+step 4: 
+then enter hte token information and upload the token image
+step 5: 
+add features by selecting mint function and burn function
+step 6:
+then confirm transactions and after that request sent to my metamask wallet to confirm it.accpeted it.
+
+so this way I created the EBT token on BNB test network.
+
+
+
