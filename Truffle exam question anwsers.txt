@@ -1,0 +1,26 @@
+Q1. What is truffle?
+ans: truffle is the development environment, framework and asset pipeline on the ethereum blockchain.
+
+Q2. What is Ganache?
+ans: Ganache is the set up for personal blockchain in which we can test smart contrat, we can deploy contract, delevope dApps and other related work without spending any cost.
+
+Q3. Demonstrate the installation process of Truffle suite and displaythe current version of Truffle installed in your computer.
+ans: 1) first we need to set up the npm in our computer.
+2) then open command prompt and run the command: npm install -g truffle
+3) to check the truffle is install run the command: truffle version mkdir
+it will display the installed version of truffle suit.
+
+Q4. Demonstrate the process of unboxing a metacoin project and explore the project structure by explaining the items briefly. 
+ans: 1) create the dictonary and to get into it, run the commands:
+   mkdir MetaCion
+   cd MetaCoin
+2) to unbox the metacoin run the command: truffle unbox metacoin
+3) to explore the project 
+   step one: open ConvertLib.sol which is a solidity contract 
+   step two: open 1_deploy_contracts.js
+   step three: open metacoin.js
+   step four: open TestMetacoin.sol
+   step five: open truffle-config.js
+
+Note: the practicle file is attahed to this file.
+
