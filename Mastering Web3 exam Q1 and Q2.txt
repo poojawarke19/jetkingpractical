@@ -1,0 +1,23 @@
+Q1. What is Web3.js?
+Ans: Web3.js is the library collection which allows to interact with the local or remote ethereum nodes using HTTP, IPC or Websocket.
+Web3.js allows to develop website to interact with blockchain.
+
+Q2. How Web3 is different from Web2?
+Ans: web2 is the second version of the internet which is start from 2004, when internet becomes more open and accesible which allows user to create their content.
+Web2 is controlled by the centralised authority and companies sell your data to other companies for customer aquisition. 
+
+and thats when web3 come in which based on the foundation of decentralization. web3 is the third iteration of the internet based on dcentralized blockchain on the mutual ledger used by the 
+cryptocurrency like bitcoin. In web3 users data is stored in the crypto wallet. In web3 users interact with app and communities through crypto wallet, and take thier data with them as thet logoff. 
+
+Q3. Demonstrate how to check the account balances with the help of Web3.js. 
+Ans: 1) give command: node
+2)then we need to give require command: const Web3 =require('web3');
+3)then we need to define our RPC URL which we get by login in infura, command for this is:
+   const rpcURL = " "; (we will paste url between double quot)
+4)the next command is: const web3 = new Web3(rpcURL);
+5)then we need to define the address of the accout of which we are checking the balance.
+  command: const address = " ";  (we will paste address between double quot)
+6)then we will give the command: web3.eth.getBalance(address, (err, wei) => { balance =
+web3.utils.fromWei(wei, 'ether') });
+7)to get balance we will give the command: console.log(balance);
+8) it will the exact balance of the given address.
